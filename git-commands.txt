@@ -1,0 +1,24 @@
+Initialize a git project
+	• git init
+	• git status
+	• git add <filename>
+	• git add <filename1> <filename2>
+	• git add .
+	• git commit -m "Commit message"
+	• git log # Get the history of the commits
+
+Going back to a previous commit
+	• git checkout <commit-hash>
+
+Creating a new branch
+	• git branch #list all branches
+	• git branch <branch_name>
+
+Merging
+	• git merge <branchname>
+
+Get from remote
+	• Open github gui, click help, show ssh key, if none, generate one (no pass phrase). Then copy to clipboard.
+	• Go to github.com, settings, SSH and GPG Keys, and add the above ssh key.
+	• Let git know that it is okay to validate using ssl certificate
+	git config --global http.sslVerify false
